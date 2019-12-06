@@ -61,6 +61,18 @@
       .form-part {
         padding: 0 24px;
       }
+
+      p {
+        margin: 24px 0 0;
+        font-family: $family-secondary;
+        color: $white;
+        font-size: $display5-size;
+        font-weight: bolder;
+
+        a {
+          color: $white;
+        }
+      }
     }
   }
 }
@@ -129,7 +141,19 @@
     }
 
     .form-part {
-      padding: 0 50px;
+      padding: 0 35px;
+    }
+
+    p {
+      margin: 30px 0 0;
+      font-family: $family-secondary;
+      color: $white;
+      font-size: $display5-size;
+      font-weight: bolder;
+
+      a {
+        color: $white;
+      }
     }
   }
 }
@@ -167,10 +191,13 @@
     }
 
     &.form-check {
-      max-width: 240px;
+      width: 100%;
       margin: 0 auto;
       padding: 0;
       text-align: center;
+      @include media-breakpoint-up(md) {
+        max-width: 165px;
+      }
 
       label {
         font-family: $family-terciary;
@@ -190,7 +217,11 @@
 
       .checkmark {
         top: -2px;
-        left: 0;
+        left: auto;
+
+        @include media-breakpoint-up(md) {
+          left: 0;
+        }
       }
     }
   }
