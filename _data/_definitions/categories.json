@@ -1,6 +1,7 @@
 {
   "title": {
     "label": "Category Name",
+    "multiple": true,
     "required": true
   },
   "description": {
