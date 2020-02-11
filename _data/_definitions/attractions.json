@@ -2,7 +2,8 @@
     "title":
     {
       "required": true,
-      "label": "Name"
+      "label": "Name",
+      "multiple": true  
     },
 
      "seo_title":
