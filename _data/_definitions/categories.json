@@ -2,10 +2,11 @@
   "title": {
     "label": "Category Name",
     "character_limit": 100,
-    "required": true
+    "required": true,
   },
   "description": {
-    "label": "Category Description"
+    "label": "Category Description",
+    "multiple": true
   },
   "meta_title":
     {"type":"text"},
