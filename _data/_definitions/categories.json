@@ -1,6 +1,7 @@
 {
   "title": {
     "label": "Category Name",
+    "character_limit": 100,
     "required": true
   },
   "description": {
