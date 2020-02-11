@@ -3,8 +3,7 @@
     {
       "required": true,
       "label": "Name",
-      "character_limit": 100,  
-      "multiple": true  
+      "character_limit": 100
     },
 
      "seo_title":
