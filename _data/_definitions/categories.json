@@ -5,8 +5,7 @@
     "required": true
   },
   "description": {
-    "label": "Category Description",
-    "required": true
+    "label": "Category Description"
   },
   "meta_title":
     {"type":"text"},
