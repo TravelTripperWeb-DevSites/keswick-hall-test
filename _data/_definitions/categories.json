@@ -1,0 +1,16 @@
+{
+  "title": {
+    "label": "Category Name",
+    "character_limit": 100,
+    "required": true,
+    "multiple": true
+  },
+  "description": {
+    "label": "Category Description",
+    "required": true
+  },
+  "meta_title":
+    {"type":"text"},
+  "meta_description":
+    {"type":"text"}
+}
